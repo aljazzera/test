@@ -15,3 +15,7 @@ $(document).ready(function() {
 		}
 	});
 });
+
+function closePopup() {
+	$.magnificPopup.close();
+  }

@@ -108,7 +108,6 @@ button.mfp-close,
 button.mfp-arrow {
   overflow: visible;
   cursor: pointer;
-  background: transparent;
   border: 0;
   -webkit-appearance: none;
   display: block;
@@ -131,9 +130,9 @@ button::-moz-focus-inner {
   top: 0;
   text-decoration: none;
   text-align: center;
-  opacity: 0.65;
+  opacity: 1;
   padding: 0 0 18px 10px;
-  color: #FFF;
+  color: #3ca4ec;
   font-style: normal;
   font-size: 28px;
   font-family: Arial, Baskerville, monospace; }
