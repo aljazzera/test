@@ -1,0 +1,1141 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    
+img 
+    max-width: 100%
+    height: auto
+a 
+    text-decoration: none
+    outline: none
+
+.fas
+    color: #70b8df
+    font-size: 20px
+    margin-right: 10px
+.fa-envelope
+
+body
+    background: #fff
+    background-size: cover
+    background-repeat: no-repeat
+    height: 100%
+
+.header
+    height: 120px
+    background: #fff
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        padding: 0 20px
+    &__nav
+        display: flex
+        justify-content: space-between
+        align-content: center
+        align-items: center
+        padding-top: 22px
+        &-logo a
+            max-width: 260px
+            height: 100%
+        &-email a
+            color: black
+            font-size: 18px
+            font-weight: 300
+        &-phone a 
+            color: black
+            font-size: 20px
+            font-weight: 800
+        &-btn 
+            padding: 20px 50px
+            background: #d3483e
+            font-size: 22px
+            color: #fff
+            font-weight: normal
+            border: none
+            &:hover
+                box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+                transition: .7s
+.main
+    &::after
+        content: url(../img/main-angle.svg)
+        position: absolute
+        top: -120px
+        left: -300px
+        z-index: -2
+    &__container
+        position: relative
+        max-width: 1200px
+        margin: 0 auto
+        padding: 20px
+    &-btn
+        padding: 20px 50px
+        background: #d3483e
+        color: #ffffff
+        font-size: 24px
+        
+    &__block
+        &::after
+            content: url('../img/circle.png') 
+            position: absolute
+            top: -245px
+            left: -237px
+            z-index: -1
+        &-circle p span
+            display: block
+            padding-top: 115px
+            font-size: 44px
+            color: #ffffff
+            font-weight: 900
+            max-width: 460px
+            text-align: left
+            padding-bottom: 50px
+        &-circle p button
+            padding: 20px 50px
+            margin-top: 35px
+            background: #d3483e
+            font-size: 22px
+            color: #fff
+            font-weight: normal
+            border: none
+            &:hover
+                box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+                transition: .7s
+        &-image
+            position: absolute
+            right: 70px
+            top: 16px
+            z-index: -2
+        &-form
+            background: #ffffff
+            box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+            padding: 50px 106px
+            position: absolute
+            top: 450px
+            left: 0
+            &::before
+                content: url('../img/popup-elipse-second.svg')
+                position: absolute
+                top: 0
+                right: 0
+            &::after
+                content: url('../img/popup-elipse-first.svg')
+                position: absolute
+                top: 0
+                right: 0
+            &--caption
+                display: block
+                font-size: 32px
+                font-weight: bold
+                color: black
+        &-form label
+            display: block
+            font-size: 20px
+            font-weight: 300
+            margin-top: 15px
+            margin-bottom: 30px
+        &-form input
+            padding: 20px 35px
+            font-size: 22px
+            border: 1px solid #d0d0d0
+            &:placeholder
+                color: #d0d0d0
+            &:focus
+                border: 1px solid red
+        &-form input[type="submit"]
+            padding: 20px 50px
+            background: #d3483e
+            font-size: 22px
+            color: #fff
+            font-weight: normal
+            border: none
+            &:hover
+                box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+                transition: .7s
+    &__phone-input
+        margin: 0 10px
+
+.options
+    position: relative
+    margin-top: 450px
+    &::after
+        content: url('../img/construction-circles.svg')
+        position: absolute
+        top: 0
+        right: 0
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        display: flex
+        padding: 20px
+    &__block
+        max-width: 515px
+        &-caption
+            font-size: 32px
+            font-weight: 700
+            line-height: 20px
+            margin-bottom: 27px
+        &-list
+            list-style-type: disc
+            & li
+                color: red
+                margin: 20px 0
+            & li span
+                font-size: 20px
+                font-weight: 400
+                color: black
+        &-image
+            max-width: 368px
+            height: auto
+            position: absolute
+            z-index: 2
+
+.forwhat
+    background: #ebf8ff
+    text-align: center
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        padding: 20px
+    &__caption
+        text-align: center
+        padding-top: 64px
+        font-size: 32px
+        font-weight: 700
+        line-height: 20px
+    &__wrapper
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+    &__block
+        display: flex
+        flex-direction: column
+        margin-top: 53px
+        &-caption
+            font-size: 20px
+            font-weight: 400
+            line-height: 26px
+        &-image
+            max-width: 359px
+            margin: 23px auto 28px
+        &-text 
+            max-width: 355px
+            font-size: 18px
+            font-weight: 300
+            line-height: 26px
+.result
+    position: relative
+    &::before
+        content: url('../img/result-circels.svg')
+        position: absolute
+        top: 50%
+        left: 0
+    &::after
+        content: url('../img/result1.png')
+        position: absolute
+        right: 0
+        bottom: -80px
+        z-index: 2
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        padding: 20px
+    &__caption
+        text-align: center
+        font-size: 32px
+        font-weight: 700
+        line-height: 20px
+        margin: 57px 0 68px
+    &__wrapper
+        display: flex
+        flex-direction: column
+        align-items: center
+         overflow: hidden
+        padding-bottom: 120px
+    &__block
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        margin-bottom: 75px
+            
+        &-item
+            display: flex
+            flex-direction: column
+            &:nth-child(2), &:nth-child(3)
+                margin-left: 100px
+            
+            &--wrapper
+                display: flex
+                flex-direction: row
+                align-items: center
+            &--image
+                max-width: 60px
+                margin-right: 22px
+            &--title
+                max-width: 200px
+                font-size: 22px
+                font-weight: 500
+            &--text
+                display: block
+                max-width: 300px
+                font-size: 16px
+                font-weight: 300
+                line-height: 22px
+                margin-top: 20px
+
+.differences
+    position: relative
+    background: #70b8df
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        padding: 20px
+    &__form
+        position: relative
+        background: #ffffff
+        box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+        padding: 50px 106px
+        top: -150px
+        &::before
+            content: url('../img/differences-elipse.svg')
+            position: absolute
+            bottom: 0
+            right: 0
+            max-width: 135px
+        &-caption
+            font-size: 32px
+            font-weight: 700
+            line-height: 28px
+    &__form label
+        display: block
+        font-size: 20px
+        font-weight: 300
+        margin-top: 15px
+        margin-bottom: 30px
+    &__form input
+        padding: 20px 35px
+        font-size: 22px
+        border: 1px solid #d0d0d0
+        &:placeholder
+            color: #d0d0d0
+        &:focus
+            border: 1px solid red
+    &__form input[type="submit"]
+        padding: 20px 50px
+        background: #d3483e
+        font-size: 22px
+        color: #fff
+        font-weight: normal
+        border: none
+        &:hover
+            box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+            transition: .7s
+    &__phone-input
+        margin: 0 10px
+    &__block
+        display: flex
+        flex-direction: row
+        &-image
+            max-width: 366px
+            height: auto
+            position: absolute
+            bottom: -80px
+        &-info
+            max-width: 660px
+            margin: 0 0 0 450px
+            &--caption
+                font-size: 32px
+                font-weight: 700
+                line-height: 20px
+            &--text
+                display: block
+                font-size: 20px
+                font-weight: 400
+                line-height: 28px
+                max-width: 563px
+                margin: 23px 0 60px
+
+.work
+    position: relative
+    background: #ebf8ff
+    z-index: -1
+    &::after
+        content: url('../img/work-elements3.png')
+        position: absolute
+        bottom: -100px
+        left: 0
+        z-index: -2
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        padding: 20px
+        display: flex
+        flex-direction: column
+    &__caption
+        text-align: center
+        padding: 69px 0 48px
+        font-size: 32px
+        font-weight: 700
+        line-height: 20px
+    &__line-wrapper
+    &__line-items--block
+        display: flex
+        flex-direction: row
+        align-items: center 
+        margin-right: 50px  
+        & span
+            font-size: 16px
+            font-weight: 400
+    &__upline
+        display: flex
+        justify-content: space-between
+        border-bottom: 3px solid #3ca4ec
+        margin-bottom: -7px
+        & p 
+            position: relative
+            background-image: url(../img/drop.png)
+            background-repeat: no-repeat
+            height: 100px
+            width: 83px
+            color: #fff
+            & span
+                display: block
+                position: absolute
+                top: 25%
+                right: 40%
+                font-size: 32px
+                font-weight: 700
+                line-height: 20px
+                max-width: 172px
+    &__underline
+        display: flex
+        justify-content: space-around
+        margin-top: -7px
+        & p 
+            position: relative
+            background-image: url(../img/underdrop.png)
+            background-repeat: no-repeat
+            height: 100px
+            width: 83px
+            color: #fff
+            & span
+                display: block
+                position: absolute
+                top: 50%
+                right: 40%
+                font-size: 32px
+                font-weight: 700
+                line-height: 20px
+                max-width: 172px
+    &__form
+        position: relative
+        background: #ffffff
+        box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+        padding: 50px 106px
+        bottom: -150px
+        right: 50px
+        &::before
+            content: url('../img/work-elipse.svg')
+            position: absolute
+            top: 0
+            right: 0
+            max-width: 135px
+        &-caption
+            font-size: 32px
+            font-weight: 700
+            line-height: 28px
+    &__form label
+        display: block
+        font-size: 20px
+        font-weight: 300
+        margin-top: 15px
+        margin-bottom: 30px
+    &__form input
+        padding: 20px 35px
+        font-size: 22px
+        border: 1px solid #d0d0d0
+        &:placeholder
+            color: #d0d0d0
+        &:focus
+            border: 1px solid red
+    &__form input[type="submit"]
+        padding: 20px 50px
+        background: #d3483e
+        font-size: 22px
+        color: #fff
+        font-weight: normal
+        border: none
+        &:hover
+            box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+            transition: .7s
+    &__phone-input
+        margin: 0 10px
+    
+.gallery
+    position: relative
+    &::before
+        content: url('../img/test.jpg')
+        position: absolute
+        top: 0
+        right: 0
+        z-index: -2
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        padding: 20px
+    &__caption
+        text-align: center
+        font-size: 32px
+        font-weight: 700
+        line-height: 20px
+        padding-top: 250px
+        padding-bottom: 48px
+    &__wrapper
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        grid-template-rows: auto
+        grid-gap: 20px
+
+        .gallery__item:nth-child(1)
+            grid-column: 1 / 3
+            grid-row: 1 /3
+        
+        .gallery__item:nth-child(2)
+            grid-column: 3 / 4
+            grid-row: 1 / 2
+        .gallery__item:nth-child(3)
+            grid-column: 4 / 5
+            grid-row: 1 / 2
+            
+
+    &__button
+        display: block
+        margin: 50px auto 80px
+        padding: 20px 50px
+        background: #d3483e
+        font-size: 22px
+        color: #fff
+        font-weight: normal
+        border: none
+        &:hover
+            box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2)
+            transition: .7s
+        
+.commend
+    position: relative
+    background: #70b8df
+    &::before
+        content: url('../img/commend-elem1.png')
+        position: absolute
+        top: -15px
+        right: 0
+    &::after
+        content: url('../img/commend-elem2.png')
+        position: absolute
+        top: 0
+        left: 0        
+    &__container
+        max-width: 1200px
+        margin: 0 auto   
+        padding: 20px 
+    &__caption
+        font-size: 32px
+        font-weight: 700
+        line-height: 20px  
+        color: #fff
+        text-align: center
+        padding-top: 64px
+        padding-bottom: 125px
+    &__block
+        display: flex
+        justify-content: space-around
+        z-index: 2
+        position: relative
+        bottom: -25px
+        z-index: 2
+        &-item
+            position: relative
+            max-width: 372px
+            min-height: 332px
+            background: #ffffff
+            padding: 140px 35px 45px 35px
+            box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.2)
+            &::after
+                content: url('../img/user.png')
+                position: absolute
+                top: -80px
+                left: 90px
+                border-radius: 50%
+                border: 4px solid #70b8df
+            &--name
+                font-size: 18px
+                font-weight: 300
+            &--date
+                color: #d3483e
+                font-size: 12px
+                padding: 17px 0
+            &--comment
+                font-size: 14px
+                font-weight: 300
+                line-height: 20px
+
+.contacts
+    position: relative
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        padding: 20px
+    &__caption
+        font-size: 32px     
+        font-weight: 700
+        line-height: 20px
+        text-align: center
+        padding: 64px 0 20px
+    &__wrapper
+        display: flex
+    &__block
+        &-social
+            &--fb
+                display: inline-block
+                background-image: url('../img/social_fb.png')
+                width: 26px
+                height: 26px
+            &--vk
+                display: inline-block
+                background-image: url('../img/social_vk.png')
+                width: 26px
+                height: 26px
+            &--inst
+                display: inline-block
+                background-image: url('../img/social_inst.png')
+                width: 26px
+                height: 26px
+                margin: 0 10px
+.phone, .email, .cities, .social
+    display: block
+    color: #70b8e0
+    font-size: 24px
+    font-weight: 700
+    line-height: 20px
+    padding-bottom: 15px
+    padding-top: 30px
+.contacts__block-phone a 
+    font-size: 20px
+    font-weight: 700
+    line-height: 16px
+    color: black
+.contacts__block-email a, .contacts__block-cities li 
+    font-size: 20px
+    font-weight: 400
+    line-height: 16px
+    color: black
+.contacts__block img
+    padding-left: 75px
+.footer
+    height: 120px
+    background: #fff
+    box-shadow: 8px 0px 25px 0px rgba(0, 0, 0, 0.2)
+    &__container
+        max-width: 1200px
+        margin: 0 auto
+        padding: 0 20px
+    &-btn 
+        &-btn
+        display: block
+        margin: 0 auto
+        padding: 15px 30px
+        background: #d3483e
+        color: #ffffff
+        font-size: 20px
+
+    &__nav
+        display: flex
+        justify-content: space-between
+        align-content: center
+        align-items: center
+        padding-top: 22px
+        &-logo a
+            max-width: 260px
+            height: 100%
+        &-email a
+            color: black
+            font-size: 18px
+            font-weight: 300
+        &-phone a 
+            color: black
+            font-size: 20px
+            font-weight: 800
+        &-info
+            display: block
+            font-size: 14px
+            font-weight: 300
+            line-height: 26px
+    &__down
+        height: 60px
+        background: #f1f1f1
+        &-container
+            max-width: 1200px
+            margin: 0 auto
+        &-text 
+            color: #000000
+            font-size: 15px
+            font-weight: 300
+            line-height: 4px
+            padding-top: 23px
+            display: block
+
+// POPUP
+
+form
+    margin: 0 auto
+    text-align: center
+    background: #fff
+    max-width: 1200px
+    height: 300px
+form label
+    font-size: 26px
+    font-weight: 400
+form ol 
+    display: flex
+    justify-content: space-around
+    margin-top: 100px
+form input 
+        padding: 20px 35px
+        font-size: 22px
+        border: 1px solid #d0d0d0
+        &:placeholder
+            color: #d0d0d0
+        &:focus
+            border: 1px solid red
+        &[type="submit"]:hover
+            background: #d3483e
+            color: #fff
+
+@media (max-width: 1199px)
+
+    .main
+        &__block
+            &-form
+                margin: 0 20px
+    .result
+        &::after
+            content: ''
+    .footer
+        &__nav
+            &-btn
+                padding: 15px 40px
+            &-email
+                margin: 0 20px
+            &-info
+                display: none
+        &__down
+            text-align: center
+
+@media (max-width: 991px) 
+    .main
+        &__block
+            &::after
+                display: none
+            &-circle p span
+                color: black 
+            &-image
+                right: -10px
+                top: 116px
+                max-width: 500px
+            &-form
+                padding: 50px 80px
+            &-form input
+                padding: 15px 20px
+                font-size: 20px
+            &-form input[type="submit"]
+                padding: 15px 40px
+                font-size: 18px
+        &::after
+            display: none
+    .result
+        &::before
+            display: none
+        &__block
+            margin-bottom: 50px
+    .differences
+        &__block
+            &-info
+                &--caption
+                    line-height: 28px
+                    font-size: 24px
+                    font-weight: bolder
+        &__form
+            padding: 50px 40px
+        &__form input
+            padding: 15px 20px
+            font-size: 20px
+        &__form input[type="submit"]
+            padding: 15px 40px
+            font-size: 18px
+    .work
+        &__form
+            padding: 50px 40px
+            margin-left: 60px
+        &__form input
+            padding: 15px 20px
+            font-size: 20px
+        &__form input[type="submit"]
+            padding: 15px 40px
+            font-size: 18px
+        &__line
+            &-items
+                &--block
+                    margin-right: 20px
+        &__underline
+            justify-content: start
+            margin-left: 60px
+    .commend
+        &__block
+            &-item
+                margin: 0 10px
+                &::after
+                   left: 50px
+    .contacts
+        &__block
+            &-phone a
+                font-size: 18px
+    .footer
+        &__nav
+            &-btn
+                font-size: 20px
+                padding: 15px 20px
+
+@media (max-width: 767px)
+    .main
+        &__block
+            &-circle p span
+                padding-top: 45px
+            &-form input[type="submit"]
+                margin-top: 10px
+                margin-left: 150px
+            
+        &__phone
+            &-input
+                margin: 0 20px
+    .options
+        &::after
+            display: none
+        &__container
+            flex-direction: column-reverse
+            align-items: center
+        &__block
+            &-image
+                position: static
+                z-index: 1
+            &-caption
+                margin: 27px 0
+    .forwhat
+        &__block
+            &:nth-child(1)
+                margin-right: 20px      
+    .resulthyhh
+        &__block
+            margin-bottom: 20px
+            &-item:nth-child(2), 
+            &:nth-child(3)
+                margin-left: 50px
+    .differences
+        &__form
+            padding: 50px 40px 20px 40px
+        &__form input[type="submit"]
+            margin-top: 10px
+            margin-left: 150px       
+        &__block
+            &-image
+                position: static  
+            &-info
+                margin-left: 30px
+                &--text
+                    max-width: 380px
+    .work
+        &__line
+            &-items
+                &--block
+                    margin: 0
+                &--block span
+                    font-size: 14px
+        &__form
+            padding: 50px 40px 20px 40px
+        &__form input[type="submit"]
+            margin-top: 10px
+            margin-left: 150px 
+    .commend
+        &__block
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-gap: 20px
+            &-item
+                margin: 0
+                &::after
+                    top: -40px
+                    left: 85px
+
+    .contacts
+        &__block
+        &__block:nth-child(1)
+            max-width: 300px
+            min-width: 130px
+            &-phone a
+                font-size: 16px  
+            &-email a
+                font-size: 16px
+            &-cities li
+                font-size: 16px              
+
+    .footer
+        &__nav
+            &-phone a
+                font-size: 14px
+            &-btn
+                font-size: 16px
+                padding: 12px 9px
+            &-email
+                margin-right: 0
+    .fas
+        margin-right: 0
+
+    .mfp-content form ol 
+        display: block
+        text-align: center
+        margin-top: 50px
+        & li:nth-child(2)
+            margin-top: 10px
+            margin-left: -47px
+        & li:nth-child(3)
+            margin-top: 10px
+@media (max-width: 480px) 
+    .header
+        &__nav
+            &-email
+                display: none
+            &-phone
+                display: none
+            &-btn
+                display: none
+
+    .main
+        background: #70b8df
+        &__block
+            &-circle p span
+                color: #ffffff
+                padding-bottom: 100px
+            &-image
+                display: none
+            &-form input
+                &[type="submit"]
+                    margin-left: 0
+        &__phone
+            &-input
+                margin: 10px 0 0 0 
+
+    .options
+        &__block
+            &-image
+                margin-top: 100px
+
+    .forwhat
+        &__wrapper
+            flex-direction: column
+        &__block
+            &-text
+                margin: 0 auto
+
+    .result
+        &__block
+            flex-direction: column
+            margin-left: 0
+            &:nth-child(3)
+                margin-left: 0
+                
+            &-item
+                &:nth-child(2), &:nth-child(3)
+                    margin-left: 0
+    .differences
+        &__form
+            top: -80px
+        &__phone
+            &-input
+                margin: 10px 0 0 0
+        &__form input
+                &[type="submit"]
+                    margin-left: 0
+        &__block
+            flex-direction: column
+
+    .work
+        &__line
+            &-items
+                &--block
+                    flex-direction: column-reverse
+                    text-align: center
+                    padding: 0 5px
+                    max-width: 150px
+        &__underline
+            margin-left: 20px
+        &__form
+            right: 40px
+        &__phone
+            &-input
+                margin: 10px 0 0 0
+        &__form input
+                &[type="submit"]
+                    margin-left: 0
+    .work__underline .work__line-items--block
+        flex-direction: column
+    .gallery
+        &__wrapper
+            grid-gap: 10px    
+        &__button
+            margin: 40px auto 60px
+            font-size: 20px
+            padding: 15px 35px
+
+    .commend
+        &__block
+            grid-template-columns: repeat(1, 1fr)
+            justify-items: center
+            &-item::after
+                left: 105px
+                    
+    .contacts
+        &__wrapper
+            flex-direction: column
+        &__block
+            display: flex
+            justify-content: space-between
+            justify-items: center
+            &:nth-child(1)
+                max-width: none
+            &-cities
+                display: none
+    .footer
+        &__nav
+            &-email, &-phone
+                display: none
+        &__down
+            &-text
+                font-size: 10px
+
+@media (max-width: 320px)
+    .main
+        &__block
+            &-circle p span
+                color: #ffffff
+                font-size: 36px
+            &-circle p button
+                margin-bottom: 20px
+            &-form
+                top: 370px
+                padding: 20px 0 30px
+                &::after, &::before
+                    display: none
+                &--caption
+                    font-size: 20px
+                    text-align: center
+                & label
+                    text-align: center
+                & input
+                    margin: 5px 15px
+                    &[type="submit"]
+                        margin-left: 30px
+    .options
+        &__block
+            &-caption
+                line-height: 26px
+            &-image
+                margin: -50px 0 30px
+                max-width: 250px
+    .forwhat
+        &__block
+            &-image
+                max-width: 260px
+    .differences
+        &__form
+            padding: 20px 10px 20px 10px
+            &::before
+                display: none
+            & span
+                font-size: 24px
+                text-align: center
+
+            & label
+                text-align: center
+            & input
+                font-size: 16px
+                &[type="submit"]
+                    margin-left: 10px
+        &__block
+            &-image
+                max-width: 275px
+
+    .work            
+        &__line
+            &-items
+                &--block
+                    padding: 0
+                    text-align: left
+        &__upline p
+            margin-left: -22px
+        &__underline
+            margin-left: 0px
+        &__form
+            right: 0
+            margin: 0
+            padding: 20px 0 30px
+            &::before
+                display: none
+            &-caption
+                display: block
+                font-size: 20px
+                text-align: center
+            & label
+                text-align: center
+            & input
+                margin: 5px 15px
+                font-size: 16px
+                &[type="submit"]
+                    margin-left: 30px
+    .gallery
+        &__caption
+            padding-top: 180px
+
+    .commend
+        &::before, &::after
+            display: none
+        &__caption
+            padding-bottom: 70px
+        &__block
+            &-item
+                &::after
+                    left: 65px
+                    top: -50px
+    .contacts
+        &__block
+            flex-direction: column
+            & img
+                padding: 0
+
+    .footer
+        &__nav
+            padding: 0
+            &-logo
+                display: none
+            &-btn 
+                display: block
+                margin: 10px auto
+        &__down
+            height: 30px
+            &-text
+                font-size: 7px
+
+    .mfp-content form 
+        & input
+            padding: 10px 20px  
+        & ol li:nth-child(2)
+            margin-left: 0px
